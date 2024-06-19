@@ -1,0 +1,12 @@
+{
+  "name": "react-native-device-info-sdk",
+  "version": "1.0.0",
+  "description": "Fetch info of android device",
+  "main": "src/index",
+  "author": "Valesh",
+  "license": "MIT",
+  "homepage": "#readme",
+  "publishConfig": {
+    "access": "public"
+  }
+}
