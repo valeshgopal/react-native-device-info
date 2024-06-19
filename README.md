@@ -28,7 +28,7 @@ If everything is set up _correctly_, you should see your new app running in your
 
 ## Step 3: Fetchiing Device Info from SDK
 
-The local SDK for the app is inside the `modules/react-native-device-info-sdk` folder and it is also [published on npm](https://www.npmjs.com/package/react-native-device-info-sdk) as `react-native-device-info-sdk`.
+The local SDK for the app is inside the `modules/react-native-device-info-sdk` folder and it is also published on npm as [react-native-device-info-sdk](https://www.npmjs.com/package/react-native-device-info-sdk) .
 
 You can install the SDK in two ways:
 
