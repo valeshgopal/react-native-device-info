@@ -14,7 +14,7 @@ To start Metro, run the following command from the _root_ of your React Native p
 yarn start
 ```
 
-## Step 2: Start your Application
+## Step 3: Start your Application
 
 Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ app:
 
@@ -26,11 +26,11 @@ yarn android
 
 If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ shortly provided you have set up your emulator correctly.
 
-## Step 3: Fetchiing Device Info from SDK
+## Step 4: Fetchiing Device Info from SDK
 
 The local SDK for the app is inside the `modules/react-native-device-info-sdk` folder and it is also published on npm as [react-native-device-info-sdk](https://www.npmjs.com/package/react-native-device-info-sdk) .
 
 You can install the SDK in two ways:
 
 1. run `yarn add react-native-device-info-sdk` (OR)
-2. If you want to modify the SDK and see the changes locally, add `"react-native-device-info-sdk": "link:./modules\\react-native-device-info-sdk"` inside `package.json` under dependencies, and repeat Steps 1 and 2
+2. If you want to modify the SDK and see the changes locally, add `"react-native-device-info-sdk": "link:./modules\\react-native-device-info-sdk"` inside `package.json` under dependencies, and repeat Steps 1 to 3
