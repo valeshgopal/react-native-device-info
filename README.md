@@ -11,7 +11,6 @@ Then, you will need to start **Metro**, the JavaScript _bundler_ that ships _wit
 To start Metro, run the following command from the _root_ of your React Native project:
 
 ```bash
-
 yarn start
 ```
 
@@ -29,9 +28,9 @@ If everything is set up _correctly_, you should see your new app running in your
 
 ## Step 3: Fetchiing Device Info from SDK
 
-The local SDK for the app is inside the modules folder and it is also publishes on npm as `react-native-device-info-sdk`.
+The local SDK for the app is inside the `modules/react-native-device-info-sdk` folder and it is also [published on npm](https://www.npmjs.com/package/react-native-device-info-sdk) as `react-native-device-info-sdk`.
 
 You can install the SDK in two ways:
 
-1. run `yarn react-native-device-info-sdk` (OR)
+1. run `yarn add react-native-device-info-sdk` (OR)
 2. If you want to modify the SDK and see the changes locally, add `"react-native-device-info-sdk": "link:./modules\\react-native-device-info-sdk"` inside `package.json` under dependencies, and repeat Steps 1 and 2
